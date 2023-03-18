@@ -89,9 +89,10 @@ app.post('/search', (req, res) => {
     });
     
     if (!searchexists) {
-      res.write('No results found. Make sure to match exact case and spelling.');
+      res.write('No results found. Make sure to match exact case and spelling.\n');
     }
 
+    res.write('\nClick your browser\'s back button to go back');
     res.end();
   });
   
