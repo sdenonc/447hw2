@@ -3,6 +3,7 @@
 How to run:
 
 in windows powershell:  
+navigate to the folder containing the code  
 install express, bodyparser, and sqlite3 using npm  
 run: node app.js  
 Access port 3000 using localhost  
